@@ -1,0 +1,5 @@
+<!-- <button class="btn btn-success m-2" @click="contar"> -->
+<!-- <button v-bind:class="['btn', 'btn-success', 'm-2']" @click="contar"> -->
+<button :class="['btn', getColorFondo(), 'm-2']" @click="contar">
+    Contar {{ contador }}
+</button>
